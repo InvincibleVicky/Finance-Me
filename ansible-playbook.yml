@@ -13,4 +13,4 @@
     command : sudo systemctl start docker
 
   - name: Deploy Docker Container
-    command: docker run -itd -p 8091:8091 --name Banking&Finance-APP vigneshwar1908/finance-me:v1
+    command: docker run -itd -p 8091:8091 --name BankingFinance-APP vigneshwar1908/finance-me:v1
