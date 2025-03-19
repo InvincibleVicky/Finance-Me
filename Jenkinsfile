@@ -39,7 +39,7 @@ pipeline {
 
         stage('Create a Docker image from the Package Insure-Me.jar file') {
             steps {
-                sh 'docker build -t vigneshwar1908/insure-me:v1 .'
+                sh 'docker build -t vigneshwar1908/finance-me:v1 .'
             }
         }
         
@@ -52,7 +52,7 @@ pipeline {
         
         stage('Push the Docker image') {
             steps {
-                sh 'docker push vigneshwar1908/insure-me:v1'
+                sh 'docker push vigneshwar1908/finance-me:v1'
             }
         }
 
