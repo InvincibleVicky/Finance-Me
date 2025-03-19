@@ -24,4 +24,4 @@
         image: vigneshwar1908/finance-me:v1 
         state: started
         ports:
-          - "8084:8081"
+          - "8081:8081"
